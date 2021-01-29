@@ -14,6 +14,6 @@ def join_nested_strings(src)
     end
      
   end
-  p comb_string
+  comb_string.join(" ")
   
 end
