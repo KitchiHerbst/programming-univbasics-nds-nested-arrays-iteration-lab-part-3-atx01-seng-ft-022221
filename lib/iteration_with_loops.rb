@@ -10,9 +10,8 @@ def join_nested_strings(src)
         comb_string << src[row_index][element_index]
       end
       element_index += 1
-      row_index += 1
     end
-     
+    row_index += 1
   end
   comb_string.join(" ")
   
