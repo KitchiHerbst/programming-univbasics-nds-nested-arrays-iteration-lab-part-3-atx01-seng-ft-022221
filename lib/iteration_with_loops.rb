@@ -8,8 +8,8 @@ def join_nested_strings(src)
     while element_index < src[row_index].count do 
       if src[row_index][element_index] == String 
         comb_string << src[row_index][element_index]
-        element_index += 1 
       end
+      element_index += 1
       row_index += 1
     end
      
